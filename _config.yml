@@ -1,0 +1,110 @@
+#remote_theme: owner/name
+#remote_theme:mzlogin/mzlogin.github.io
+
+# Site settings
+title: Abra Blog
+SEOTitle: Abra's blog
+header-img: img/air_line_cut.png
+email: xd03121020@gmail.com
+description: "真正的勇士敢于面对惨淡的人生。"
+keyword: "Abra，Abra's blog,Abra, Linux, C++, Mysql"
+url: "http://yf8848.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/yf8848/yf8848.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "真正的勇士敢于面对惨淡的人生"
+sidebar-avatar: /img/p_me.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# SNS settings
+RSS: false
+weibo_username:     3970298823
+#zhihu_username:
+github_username:    yf8848
+facebook_username:  yf8848
+jianshu_username:   ad2b7b3e6d92
+twitter_username:   foo8848
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus settings（https://disqus.com/）
+disqus_username: yf8848
+
+# 多说 将于2017年6月1日正式关停服务，建议使用 Disqus（http://dev.duoshuo.com/threads/58d1169ae293b89a20c57241）
+# Duoshuo settings
+# duoshuo_username: qiubaiying
+# Share component is depend on Comment so we can NOT use share only.
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 7de827df0f92eb4f965e9a3dad9908fe
+
+# Google Analytics
+ga_track_id: 'UA-110566772-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "bryan",
+        href: "http://bryancrash.site/"
+    },{
+        title: "Tech小穆",
+        href: "http://xiaomu.bitcron.com/"
+    },{
+        #title: "Apple",
+        #href: "https://apple.com"
+    },{
+        #title: "Apple Developer",
+        #href: "https://developer.apple.com/"
+    }
+]
